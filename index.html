@@ -8,6 +8,18 @@
     <title>Peenguin Fashion</title>
     <!-- Tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        price: '#FABE4C',
+                    }
+                }
+            }
+        }
+    </script>
 
 
 </head>
@@ -22,7 +34,12 @@
                     of winter</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur </p>
                 <button class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white uppercase py-4 px-8 rounded-lg">
-                    <span><img src="icons/shopping-cart 1.png" alt=""></span> Buy Now</button>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6 inline">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                    </svg>
+                    Buy Now</button>
             </div>
             <div>
                 <img class="w-3/4 md:w-full" src="images/model.png" alt="">
@@ -33,6 +50,70 @@
 
 
     <main>
+        <!-- Woman Jacket -->
+        <section class="container mx-auto mt-12">
+            <h2 class="text-5xl font-semibold uppercase mb-12">Women jacket</h2>
+            <div class="flex gap-x-2">
+                <div class="space-y-2 px-2 rounded-2xl drop-shadow-xl border-current">
+                    <img class="bg-slate-100 rounded-3xl" src="images\jacket-1.png" alt="">
+                    <div>
+                        <h2 class="text-2xl font-semibold">Yellow Coat Jacket</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, illo.</p>
+                        <div class="flex justify-between">
+
+                            <h3 class="text-price text-3xl font-bold">$234</h3>
+                            <button
+                                class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white uppercase py-4 px-8 rounded-lg">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                                </svg>
+                                Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-2 px-2 rounded-2xl drop-shadow-xl">
+                    <img class="bg-slate-100 rounded-3xl" src="images\jacket-2.png" alt="">
+                    <div>
+                        <h2 class="text-2xl font-semibold">Ladies Jacket</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, illo.</p>
+                        <div class="flex justify-between">
+
+                            <h3 class="text-price text-3xl font-bold">$234</h3>
+                            <button
+                                class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white uppercase py-4 px-8 rounded-lg">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                                </svg>
+                                Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-2 px-2 rounded-2xl drop-shadow-xl">
+                    <img class="bg-slate-100 rounded-3xl" src="images\jacket-3.png" alt="">
+                    <div>
+                        <h2 class="text-2xl font-semibold">Woman Leather Jacket</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, illo.</p>
+                        <div class="flex justify-between">
+
+                            <h3 class="text-price text-3xl font-bold">$234</h3>
+                            <button
+                                class="bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white uppercase py-4 px-8 rounded-lg">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                                </svg>
+                                Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
 
     </main>
 
